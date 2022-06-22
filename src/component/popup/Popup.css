@@ -1,0 +1,67 @@
+.card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  left: 40px;
+  bottom: 10px;
+  height: 310px;
+  width: 320px;
+}
+
+.card-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mid-btn {
+  margin-top: 10px;
+}
+
+.add-other-icon{
+    margin-right: 8px;
+}
+.bottom-content {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-cont-link {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 6px;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.btn-cont-link p {
+    padding-top: 4px;
+  margin-right: 15px;
+}
+
+.btn-font {
+  font-size: 0.9rem;
+}
+
+
+.btn-cont-btn{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.btn-cont-btn p{
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
