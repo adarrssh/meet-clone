@@ -1,7 +1,7 @@
 .bottom-body{
     width: 100%;
     height: 15vh;
-    background-color: black;
+    background-color: #202124;
     color: white;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@
     border-radius: 50%;
     padding: 10px;
     margin-right: 10px ;
-    background-color: rgb(62, 61, 61);
+    background-color: #3e3e3f;
     color: white;
     cursor: pointer;
 }
@@ -48,9 +48,15 @@
     background-color: red;
 }
 
+
 .right .icons{
-    background-color: black;
+    background-color: #202124;
 }
+
+.right .icons:hover{
+    color: #0d6efd;
+}
+
 
 .right{
     flex: 1;

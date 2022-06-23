@@ -12,13 +12,22 @@ import CallEndIcon from '@mui/icons-material/CallEnd';
 const BottomMiddle = () => {
     const [micOn, setMicOn]=useState(false)
     const [videoOn, setvideOn]=useState(false)
+
+    const changeMic =()=>{
+        setMicOn(!micOn);
+    }
+
+    const changeVid=()=>{
+        setvideOn(!videoOn)
+    }
+
     return (
         <div className="middle">
-            <div className="icons red">
+            <div onClick={changeMic} className={micOn?"icons":"icons red"}>
                 {micOn?<MicIcon/>:<MicOffIcon/>}
             </div>
 
-            <div className="icons red">
+            <div onClick={changeVid} className={videoOn?"icons":"icons red"}>
                {videoOn?
                    <VideocamIcon />:<VideocamOffIcon/>
                }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './BottomTools.css'
 import InfoIcon from '@mui/icons-material/Info';
 import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
@@ -6,27 +6,33 @@ import ChatIcon from '@mui/icons-material/Chat';
 import SettingsIcon from '@mui/icons-material/Settings';
 import LockClockIcon from '@mui/icons-material/LockClock';
 
-const BottomRight = () => {
+const BottomRight = ({rightPopup,setRightPopup}) => {
+
+
+    const btnChange=()=>{
+        setRightPopup(!rightPopup)
+    }
+
   return (
     
     <div className="right">
-                    <div className="icons">
+                    <div  onClick={btnChange} className="icons red">
                         <InfoIcon />
                     </div>
 
-                    <div className="icons">
+                    <div  onClick={btnChange} className="icons">
                         <PeopleOutlineIcon />
                     </div>
 
-                    <div className="icons">
+                    <div  onClick={btnChange} className="icons">
                         <ChatIcon />
                     </div>
 
-                    <div className="icons">
+                    <div  onClick={btnChange} className="icons">
                         <SettingsIcon />
                     </div>
 
-                    <div className="icons">
+                    <div  onClick={btnChange} className="icons">
                         <LockClockIcon />
                     </div>
                 </div>

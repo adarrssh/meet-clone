@@ -6,7 +6,13 @@ import SecurityIcon from '@mui/icons-material/Security';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 
-const Popup = () => {
+const Popup = ({setPopup}) => {
+
+
+    const closeBtn =()=>{
+        setPopup(false);
+    }
+
     return (
         <div className="card">
             <div className="card-body">
@@ -16,7 +22,7 @@ const Popup = () => {
                     </div>
 
                     <div className="cross">
-                        <CloseIcon />
+                        <CloseIcon onClick={closeBtn}/>
                     </div>
                 </div>
 
