@@ -1,7 +1,6 @@
 import React from 'react'
 import Popup from '../popup/Popup'
 import RightPopup from '../popup/RightPopup'
-import { useState } from 'react'
 import './VideoScreen.css'
 
 const VideoScreen = ({rightPopup,setRightPopup,popup, setPopup}) => {
