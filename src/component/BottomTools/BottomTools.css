@@ -64,6 +64,10 @@
   color: #0d6efd;
 }
 
+.icons-hover:hover{
+  background-color: #0d6efd;
+}
+
 .right {
   flex: 1;
   display: flex;

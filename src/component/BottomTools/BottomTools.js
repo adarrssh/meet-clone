@@ -11,7 +11,7 @@ const BottomTools = ({rightPopup,setRightPopup}) => {
         <div className='bottom-body'>
             <div className='button-container'>
                 <BottomLeft/>
-                <BottomMiddle/>
+                <BottomMiddle rightPopup={rightPopup} setRightPopup={setRightPopup}/>
                 <BottomRight rightPopup={rightPopup} setRightPopup={setRightPopup}/>
             </div>
         </div>
