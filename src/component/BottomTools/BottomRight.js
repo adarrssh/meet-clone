@@ -20,7 +20,8 @@ const BottomRight = ({rightPopup,setRightPopup}) => {
                         <InfoIcon />
                     </div>
 
-                    <div  onClick={btnChange} className="icons">
+                    <div  onClick={btnChange} className="icons icons-eight">
+                        <div className='eight'>8</div>
                         <PeopleOutlineIcon />
                     </div>
 

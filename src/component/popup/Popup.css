@@ -70,4 +70,11 @@
     font-size: 0.8rem;
     margin-left: 10px;
 }
+@media only screen and (max-width: 650px) {
 
+  .card{
+    margin-top: 20px;
+    width: 270px;
+    height: 70vh;
+  }
+}

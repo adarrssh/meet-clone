@@ -5,7 +5,6 @@
   width: 300px;
   height: 70vh;
   border-radius: 8px;
-
 }
 
 .r-p-content {
@@ -93,4 +92,11 @@
 
 .b-send-r {
   padding: 10px;
+}
+
+
+@media only screen and (max-width: 650px) {
+  .r-p-main{
+    height: 60vh;
+  }
 }
