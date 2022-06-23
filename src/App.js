@@ -6,7 +6,7 @@ import BottomTools from './component/BottomTools/BottomTools';
 function App() {
 
   const [popup, setPopup]=useState(true);
-  const [rightPopup, setRightPopup]=useState(true)
+  const [rightPopup, setRightPopup]=useState(false)
 
 
   return (
